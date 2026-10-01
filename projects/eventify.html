@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event Management System | Linh Anh</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="../index.html" class="logo">
+                Linh Anh
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="../index.html#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../index.html#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../index.html#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../index.html#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <main>
+        <section class="case-study-hero">
+
+            <div class="case-study-header">
+
+                <p class="project-label">
+                    FULL-STACK DEVELOPMENT · TEAM PROJECT
+                </p>
+
+                <h1>Eventify</h1>
+
+                <p class="case-study-intro">
+                    A full-stack event management platform designed to connect
+                    attendees and organisers through event discovery, registration
+                    and event management.
+                </p>
+            </div>
+
+            <div class="case-study-cover">
+                <img
+                    src="../assets/images/eventify/eventify-cover.png"
+                    alt="Event Management System interface"
+                >
+            </div>
+
+        </section>
+
+        <!-- =========================
+            PROJECT OVERVIEW
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                01 · Overview
+            </p>
+
+            <h2>
+                Simplifying event management
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    Eventify was developed as a university team project
+                    focused on creating a full-stack event management
+                    platform for attendees and event organisers.
+                </p>
+
+                <p>
+                    The system was designed to bring event discovery,
+                    registration and management into one platform while
+                    exploring full-stack development, database design,
+                    authentication and collaborative software development.
+                </p>
+
+            </div>
+
+
+            <p class="project-label">
+                Project Details
+            </p>
+
+            <div class="project-details-grid">
+
+                <div>
+                    <span>Project Type</span>
+                    <strong>University Team Project</strong>
+                </div>
+
+                <div>
+                    <span>Platform</span>
+                    <strong>Web Application</strong>
+                </div>
+
+                <div>
+                    <span>My Role</span>
+                    <strong>Process & Project Management</strong>
+                </div>
+
+                <div>
+                    <span>Methodology</span>
+                    <strong>Agile</strong>
+                </div>
+
+                <div>
+                    <span>Technologies</span>
+                    <strong>
+                        React • Flask • Python • SQLite • REST API
+                    </strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+            THE PROBLEM
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                02 · The Problem
+            </p>
+
+            <h2>
+                Event management can become fragmented
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    Managing an event involves more than simply publishing
+                    event information. Organisers also need to manage
+                    registrations, attendees, tickets and communication
+                    throughout the event lifecycle.
+                </p>
+
+                <p>
+                    For smaller event organisers, these activities can become
+                    difficult to manage when they rely on separate tools or
+                    manual processes. Eventify explored how these tasks could
+                    be brought together within one central platform.
+                </p>
+
+            </div>
+
+
+            <p class="project-label">
+                System Goals
+            </p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <h3>
+                        Discover Events
+                    </h3>
+
+                    <p>
+                        Give attendees a simple way to browse and discover
+                        available events.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Register & Attend
+                    </h3>
+
+                    <p>
+                        Allow users to create an account, register for
+                        events and keep track of their registrations.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Manage Events
+                    </h3>
+
+                    <p>
+                        Provide organisers with tools to create events
+                        and manage their listings.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Connect the Experience
+                    </h3>
+
+                    <p>
+                        Bring attendee and organiser workflows together
+                        through one full-stack web application.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+            SYSTEM DESIGN
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                03 · System Design
+            </p>
+
+            <h2>
+                Planning the system before development
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    Before implementation, the team mapped the main
+                    entities, user interactions and relationships required
+                    to support the event management workflow.
+                </p>
+
+                <p>
+                    The system was structured around users, events,
+                    registrations, tickets and related event information,
+                    helping establish how data would move between the
+                    attendee and organiser sides of the platform.
+                </p>
+
+            </div>
+
+
+            <p class="project-label">
+                Database Design
+            </p>
+
+            <div class="case-study-image diagram-image">
+
+                <img
+                    src="../assets/images/eventify/database-diagram.png"
+                    alt="Eventify database relationship diagram"
+                >
+
+            </div>
+            <p class="project-label">
+                UML & User Interactions
+            </p>
+
+            <div class="case-study-text">
+
+                <p>
+                    UML diagrams were also used during planning to map
+                    system responsibilities and interactions between attendees,
+                    organisers and the main application components.
+                </p>
+
+            </div>
+
+            <div class="case-study-image diagram-image">
+
+                <img
+                    src="../assets/images/eventify/uml-diagram.png"
+                    alt="Eventify UML use case and class diagrams"
+                >
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+            MY ROLE
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                04 · My Role
+            </p>
+
+            <h2>
+                Keeping the project organised and moving forward
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    Eventify was developed as a team project. My main
+                    responsibilities focused on process and project
+                    management, including task tracking, team collaboration
+                    and maintaining meeting records.
+                </p>
+
+                <p>
+                    I helped track the project's progress against our
+                    planned timeline, documented development activities
+                    across each iteration and contributed to regular
+                    discussions around progress and responsibilities.
+                </p>
+
+                <p>
+                    This role gave me experience working between the
+                    technical development process and the coordination
+                    required to keep a software project organised.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+            DEVELOPMENT PROCESS
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                05 · Development Process
+            </p>
+
+            <h2>
+                From requirements to implementation
+            </h2>
+
+            <div class="process-grid">
+
+                <div class="process-step">
+
+                    <span>01</span>
+
+                    <h3>
+                        Plan
+                    </h3>
+
+                    <p>
+                        Define requirements, project goals and
+                        responsibilities across the team.
+                    </p>
+
+                </div>
+
+
+                <div class="process-step">
+
+                    <span>02</span>
+
+                    <h3>
+                        Design
+                    </h3>
+
+                    <p>
+                        Develop interface concepts, database structures
+                        and system workflows.
+                    </p>
+
+                </div>
+
+
+                <div class="process-step">
+
+                    <span>03</span>
+
+                    <h3>
+                        Develop
+                    </h3>
+
+                    <p>
+                        Implement authentication, event functionality
+                        and frontend-to-backend integration.
+                    </p>
+
+                </div>
+
+
+                <div class="process-step">
+
+                    <span>04</span>
+
+                    <h3>
+                        Test & Refine
+                    </h3>
+
+                    <p>
+                        Test core workflows, resolve integration issues
+                        and refine the application.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+            TECHNICAL IMPLEMENTATION
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                06 · Technical Implementation
+            </p>
+
+            <h2>
+                Connecting the frontend, backend and database
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    Eventify was developed as a full-stack web application
+                    using React for the frontend and Flask for the backend.
+                    The two layers communicated through API requests, allowing
+                    the interface to retrieve and update event and user data.
+                </p>
+
+                <p>
+                    Authentication was handled using JSON Web Tokens (JWT),
+                    while SQLAlchemy was used to manage interactions between
+                    the backend and the relational database.
+                </p>
+
+            </div>
+
+
+            <p class="project-label">
+                System Architecture
+            </p>
+
+            <div class="architecture-grid">
+
+                <div class="architecture-card">
+                    <span>01</span>
+
+                    <h3>Frontend</h3>
+
+                    <p>
+                        React · JavaScript<br>
+                        React Router · Axios
+                    </p>
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-card">
+                    <span>02</span>
+
+                    <h3>Backend</h3>
+
+                    <p>
+                        Python · Flask<br>
+                        REST API · JWT
+                    </p>
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-card">
+                    <span>03</span>
+
+                    <h3>Database</h3>
+
+                    <p>
+                        SQLite<br>
+                        SQLAlchemy ORM
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =========================
+            SYSTEM SHOWCASE
+        ========================== -->
+
+        <section class="system-showcase">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    SYSTEM SHOWCASE
+                </span>
+
+                <h2>
+                    Eventify in action
+                </h2>
+
+                <p>
+                    The final system focused on the core attendee and
+                    organiser workflows, from discovering events to
+                    managing registrations and creating new events.
+                </p>
+
+            </div>
+
+
+            <!-- EVENT DISCOVERY -->
+
+            <div class="showcase-row">
+
+                <div class="showcase-image">
+
+                    <img
+                        src="../assets/images/eventify/event-home.png"
+                        alt="Eventify event discovery page"
+                    >
+
+                </div>
+
+                <div class="showcase-content">
+
+                    <span>01</span>
+
+                    <h3>
+                        Discover Events
+                    </h3>
+
+                    <p>
+                        The homepage allows visitors to view available
+                        events and quickly access the information needed
+                        before registering.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- USER ACCOUNT -->
+
+            <div class="showcase-row reverse">
+
+                <div class="showcase-image">
+
+                    <img
+                        src="../assets/images/eventify/event-login.png"
+                        alt="Eventify login page"
+                    >
+
+                </div>
+
+                <div class="showcase-content">
+
+                    <span>02</span>
+
+                    <h3>
+                        Secure Account Access
+                    </h3>
+
+                    <p>
+                        Users and organisers can create accounts and
+                        securely log in, with role-based access controlling
+                        the functionality available to each user.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MY EVENTS -->
+
+            <div class="showcase-row">
+
+                <div class="showcase-image">
+
+                    <img
+                        src="../assets/images/eventify/event-profile.png"
+                        alt="Eventify registered events dashboard"
+                    >
+
+                </div>
+
+                <div class="showcase-content">
+
+                    <span>03</span>
+
+                    <h3>
+                        Manage Registrations
+                    </h3>
+
+                    <p>
+                        After registering for an event, attendees can view
+                        their registered events through their profile,
+                        keeping their event activity in one place.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CREATE EVENT -->
+
+            <div class="showcase-row reverse">
+
+                <div class="showcase-image">
+
+                    <img
+                        src="../assets/images/eventify/event-create.png"
+                        alt="Eventify create event page"
+                    >
+
+                </div>
+
+                <div class="showcase-content">
+
+                    <span>04</span>
+
+                    <h3>
+                        Create Events
+                    </h3>
+
+                    <p>
+                        Organisers have access to event creation tools,
+                        allowing them to publish new events that become
+                        available through the platform.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+            CHALLENGES & ITERATION
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                07 · Challenges & Iteration
+            </p>
+
+            <h2>
+                Adapting when the original approach became too complex
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    One of the biggest challenges during development was
+                    integrating the original React frontend with the backend.
+                    As the interface grew, the number of interconnected
+                    components made integration and version control
+                    increasingly difficult.
+                </p>
+
+                <p>
+                    To prioritise a functional end-to-end system, the team
+                    simplified and rebuilt the frontend around the core
+                    workflows. This reduced the scope of the final interface,
+                    but allowed the essential attendee and organiser
+                    functionality to work together successfully.
+                </p>
+
+            </div>
+
+
+            <!-- BEFORE / AFTER -->
+
+            <p class="project-label"><br/>
+                From Initial Vision to Final Implementation
+            </p>
+
+            <div class="iteration-comparison">
+
+                <div class="iteration-item">
+
+                    <div class="iteration-image">
+                        <img
+                            src="../assets/images/eventify/initial-design.png"
+                            alt="Initial Eventify high-fidelity interface design"
+                        >
+                    </div>
+                </div>
+
+
+                <div class="iteration-arrow">
+                    →
+                </div>
+
+
+                <div class="iteration-item">
+                    <div class="iteration-info">
+
+                        <span>INITIAL DESIGN</span>
+
+                        <h3>
+                            A more ambitious interface
+                        </h3>
+
+                        <p>
+                            The initial high-fidelity concept explored a
+                            richer event discovery experience with more
+                            detailed visual content and functionality.
+                        </p>
+                        <br/>
+
+                    </div>
+                    <div class="iteration-image">
+                        <img
+                            src="../assets/images/eventify/final-system.png"
+                            alt="Final implemented Eventify interface"
+                        >
+                    </div>
+
+                    <div class="iteration-info">
+
+                        <span>FINAL IMPLEMENTATION</span>
+
+                        <h3>
+                            Prioritising core functionality
+                        </h3>
+
+                        <p>
+                            The final interface was simplified so the team
+                            could focus on reliable frontend-to-backend
+                            integration and deliver the core event workflows.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <p class="project-label"><br/><br/>
+                Key Challenges
+            </p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <h3>
+                        System Integration
+                    </h3>
+
+                    <p>
+                        Connecting the frontend, backend and database
+                        proved more complex than originally anticipated.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Version Control
+                    </h3>
+
+                    <p>
+                        Managing changes across interconnected files made
+                        collaboration and Git integration more challenging.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Learning as We Built
+                    </h3>
+
+                    <p>
+                        The team had limited experience with end-to-end
+                        integration, requiring additional independent
+                        learning throughout development.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+            WHAT I LEARNED
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <p class="project-label">
+                08 · What I Learned
+            </p>
+
+            <h2>
+                Building the system was only part of the challenge
+            </h2>
+
+            <div class="case-study-text">
+
+                <p>
+                    Eventify taught me that successful software development
+                    depends on more than completing individual features.
+                    Planning, communication and early integration are just
+                    as important when multiple parts of a system need to
+                    work together.
+                </p>
+
+                <p>
+                    The challenges we experienced showed me the value of
+                    testing frontend and backend integration earlier,
+                    keeping the architecture manageable and adjusting the
+                    project scope when technical limitations arise.
+                </p>
+
+                <p>
+                    From a project management perspective, I also gained
+                    practical experience tracking progress, documenting
+                    decisions and working with a team through changes
+                    during development.
+                </p>
+
+            </div>
+
+
+            <p class="project-label"><br/>
+                Key Takeaways
+            </p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <h3>
+                        Integrate Early
+                    </h3>
+
+                    <p>
+                        Testing connections between different parts of
+                        the system earlier can reveal problems before
+                        they become expensive to fix.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Keep It Modular
+                    </h3>
+
+                    <p>
+                        A simpler, modular structure makes development,
+                        integration and collaboration easier to manage.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Adapt the Scope
+                    </h3>
+
+                    <p>
+                        Prioritising a smaller set of working features
+                        can be more valuable than attempting to deliver
+                        every planned feature.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <h3>
+                        Communicate Clearly
+                    </h3>
+
+                    <p>
+                        Regular progress checks and clear responsibilities
+                        help a team respond more effectively when the
+                        project changes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+   
+    <!-- =========================
+             BACK TO PROJECTS
+        ========================== -->
+
+        <section class="case-study-next">
+
+            <a href="../index.html#projects">
+                ← Back to Projects
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Linh Anh. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
